@@ -1,0 +1,15 @@
+C:\Users\rodri\Documents\tl2-tp1-2024-mendo721\bin\Debug\net8.0\tl2-tp1-2024-mendo721.exe
+C:\Users\rodri\Documents\tl2-tp1-2024-mendo721\bin\Debug\net8.0\tl2-tp1-2024-mendo721.deps.json
+C:\Users\rodri\Documents\tl2-tp1-2024-mendo721\bin\Debug\net8.0\tl2-tp1-2024-mendo721.runtimeconfig.json
+C:\Users\rodri\Documents\tl2-tp1-2024-mendo721\bin\Debug\net8.0\tl2-tp1-2024-mendo721.dll
+C:\Users\rodri\Documents\tl2-tp1-2024-mendo721\bin\Debug\net8.0\tl2-tp1-2024-mendo721.pdb
+C:\Users\rodri\Documents\tl2-tp1-2024-mendo721\obj\Debug\net8.0\tl2-tp1-2024-mendo721.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodri\Documents\tl2-tp1-2024-mendo721\obj\Debug\net8.0\tl2-tp1-2024-mendo721.AssemblyInfoInputs.cache
+C:\Users\rodri\Documents\tl2-tp1-2024-mendo721\obj\Debug\net8.0\tl2-tp1-2024-mendo721.AssemblyInfo.cs
+C:\Users\rodri\Documents\tl2-tp1-2024-mendo721\obj\Debug\net8.0\tl2-tp1-2024-mendo721.csproj.CoreCompileInputs.cache
+C:\Users\rodri\Documents\tl2-tp1-2024-mendo721\obj\Debug\net8.0\tl2-tp1-2024-mendo721.sourcelink.json
+C:\Users\rodri\Documents\tl2-tp1-2024-mendo721\obj\Debug\net8.0\tl2-tp1-2024-mendo721.dll
+C:\Users\rodri\Documents\tl2-tp1-2024-mendo721\obj\Debug\net8.0\refint\tl2-tp1-2024-mendo721.dll
+C:\Users\rodri\Documents\tl2-tp1-2024-mendo721\obj\Debug\net8.0\tl2-tp1-2024-mendo721.pdb
+C:\Users\rodri\Documents\tl2-tp1-2024-mendo721\obj\Debug\net8.0\tl2-tp1-2024-mendo721.genruntimeconfig.cache
+C:\Users\rodri\Documents\tl2-tp1-2024-mendo721\obj\Debug\net8.0\ref\tl2-tp1-2024-mendo721.dll
