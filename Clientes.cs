@@ -11,5 +11,11 @@ namespace cliente
         public string Telefono { get => telefono; set => telefono = value; }
         public string Direccion { get => direccion; set => direccion = value; }
         public string Referencia { get => referencia; set => referencia = value; }
+        public Cliente(string Nombre, string Telefono, string Direccion, string Referencia){
+            this.nombre = Nombre;
+            this.telefono = Telefono;
+            this.direccion = Direccion;
+            this.referencia = Referencia;
+        }
     }
 }
