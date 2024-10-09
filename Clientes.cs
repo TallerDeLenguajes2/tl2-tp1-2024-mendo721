@@ -17,5 +17,9 @@ namespace cliente
             this.direccion = Direccion;
             this.referencia = Referencia;
         }
+        public string VerDatosCliente()
+        {
+            return $"Nombre: {Nombre}, Dirección: {Direccion}, Teléfono: {Telefono}, Datos de referencia: {Referencia}";
+        }
     }
 }

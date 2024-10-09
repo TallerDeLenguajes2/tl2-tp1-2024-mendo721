@@ -28,5 +28,20 @@ namespace cadete
         public void eliminarPedido(Pedido pedido){
             listaPedidos.Remove(pedido);
         }
+        public void cambiarEstadoPedido(int nroPedido, Estado nuevoEstado)
+        {
+            var pedido = listaPedidos.FirstOrDefault(p => p.Nro == nroPedido);
+            if (pedido != null)
+            {
+                pedido.cambiarEstado(nuevoEstado);
+            }
+        }
+        public void ListarPedidos()
+    {
+        foreach (var pedido in listaPedidos)
+        {
+            pedido.mostrarPedido();
+        }
+    }
     }
 }

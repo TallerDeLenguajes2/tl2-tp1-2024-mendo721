@@ -37,5 +37,15 @@ namespace pedidos
             Console.WriteLine($"Direccion: {cliente.Direccion}");
             Console.WriteLine($"Referencia:", cliente.Referencia);
         }
+        public void cambiarEstado(Estado Estado){
+            this.estado = Estado;
+        }
+        public void mostrarPedido()
+    {
+        Console.WriteLine($"Nro: {numero}");
+        Console.WriteLine($"Obs: {observacion}");
+        Console.WriteLine($"Cliente: {cliente.VerDatosCliente()}");
+        Console.WriteLine($"Estado: {estado}");
+    }
     }
 }
