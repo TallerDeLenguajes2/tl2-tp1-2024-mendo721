@@ -19,7 +19,9 @@ namespace cadeteria;
             this.Tel = telefono;
             this.listadoCadetes = new List<Cadete>();
         }
-        
+        public Cadeteria (){
+            
+        }
         public void agregarCadete(Cadete cadete){
             listadoCadetes.Add(cadete);
         }
