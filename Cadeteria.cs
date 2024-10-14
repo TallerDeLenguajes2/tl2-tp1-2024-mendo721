@@ -1,7 +1,6 @@
-using cadete;
-using pedidos;
-namespace cadeteria
-{
+
+namespace cadeteria;
+
     public class Cadeteria
     {
         private string nombre;
@@ -10,6 +9,7 @@ namespace cadeteria
 
         public string Nombre { get => nombre; set => nombre = value; }
         public string Tel { get => tel; set => tel = value; }
+        public List<Cadete> ListadoCadetes {get => listadoCadetes; set => listadoCadetes = value; }
         public Cadeteria(string nombre, string telefono)
         {
             this.Nombre = nombre;
@@ -26,8 +26,8 @@ namespace cadeteria
         public void asignarPedido(Pedido pedido, Cadete cadete){
             cadete.agregarPedido(pedido);
         }
-         public void cambiarEstado(Estado nuevo, Pedido pedido){
-
-        }
+        public void ReasignarPedido(Cadete anterior, Cadete nuevo, Pedido pedido){
+        anterior.eliminarPedido(pedido);
+        nuevo.agregarPedido(pedido);
     }
-}
+    }

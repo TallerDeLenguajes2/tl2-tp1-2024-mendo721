@@ -1,7 +1,6 @@
-using System.Data.Common;
-using pedidos;
-namespace cadete
-{
+
+namespace cadeteria;
+
     public class Cadete
     {
         private int id;
@@ -14,6 +13,7 @@ namespace cadete
         public string Nombre { get => nombre; set => nombre = value; }
         public string Direccion { get => direccion; set => direccion = value; }
         public string Tel { get => tel; set => tel = value; }
+        public List<Pedido> ListaPedidos {get => listaPedidos; set => listaPedidos = value; }
         public Cadete(int id, string nombre, string direccion, string telefono)
         {
             this.Id = id;
@@ -44,4 +44,3 @@ namespace cadete
         }
     }
     }
-}

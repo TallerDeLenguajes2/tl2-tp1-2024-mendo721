@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using System.Collections.Generic;
 using cadeteria;
-using cadete;
 
 public class CargarCadeteria
 {

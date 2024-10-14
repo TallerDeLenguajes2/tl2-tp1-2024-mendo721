@@ -1,6 +1,5 @@
-using cliente;
-namespace pedidos
-{
+namespace cadeteria;
+
     public enum Estado
     {
         procesamiento,
@@ -27,6 +26,8 @@ namespace pedidos
 
         public int Nro { get => numero; set => numero = value; }
         public string Obs { get => observacion; set => observacion = value; }
+        public Cliente Cliente {get => cliente; set => cliente = value; }
+        public Estado Estado {get => estado; set => estado = value; }
         public string verDireccionCliente(){
             return cliente.Direccion;
         }
@@ -48,4 +49,3 @@ namespace pedidos
         Console.WriteLine($"Estado: {estado}");
     }
     }
-}

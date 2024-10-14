@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("tl2-tp1-2024-mendo721")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7728a15dffa83b163ff91230d15cc99455ff58bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8997fafda80f6a81e4fd407c2015a9fb48526b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("tl2-tp1-2024-mendo721")]
 [assembly: System.Reflection.AssemblyTitleAttribute("tl2-tp1-2024-mendo721")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

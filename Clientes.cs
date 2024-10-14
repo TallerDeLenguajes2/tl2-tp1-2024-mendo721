@@ -1,5 +1,5 @@
-namespace cliente
-{
+namespace cadeteria;
+
     public class Cliente
     {
         private string nombre;
@@ -22,4 +22,3 @@ namespace cliente
             return $"Nombre: {Nombre}, Dirección: {Direccion}, Teléfono: {Telefono}, Datos de referencia: {Referencia}";
         }
     }
-}
