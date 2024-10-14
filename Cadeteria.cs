@@ -10,17 +10,19 @@ namespace cadeteria;
         private List<Pedido> listadoPedidos;
 
         public string Nombre { get => nombre; set => nombre = value; }
-        public string Tel { get => tel; set => tel = value; }
+        public string Telefono { get => tel; set => tel = value; }
+
         public List<Cadete> ListadoCadetes {get => listadoCadetes; set => listadoCadetes = value; }
         public List<Pedido> ListadoPedidos {get => listadoPedidos; set => listadoPedidos = value; }
         public Cadeteria(string nombre, string telefono)
         {
             this.Nombre = nombre;
-            this.Tel = telefono;
+            this.Telefono = telefono;
             this.listadoCadetes = new List<Cadete>();
+            this.listadoPedidos = new List<Pedido>();
         }
         public Cadeteria (){
-            
+
         }
         public void agregarCadete(Cadete cadete){
             listadoCadetes.Add(cadete);

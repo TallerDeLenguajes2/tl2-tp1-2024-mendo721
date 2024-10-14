@@ -17,7 +17,7 @@ public class AccesoJson : AccesoDatos
             }
         }
         var cadeteriaAux = JsonSerializer.Deserialize<Cadeteria>(cadenaCadeteria);
-        var cadeteria = new Cadeteria(cadeteriaAux.Nombre, cadeteriaAux.Tel);
+        var cadeteria = new Cadeteria(cadeteriaAux.Nombre, cadeteriaAux.Telefono);
         return cadeteria;
     }
     public List<Cadete> LeerCadetes(string nombreArchivo)
