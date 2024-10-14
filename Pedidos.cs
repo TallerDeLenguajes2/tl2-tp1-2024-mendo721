@@ -14,6 +14,8 @@ namespace cadeteria;
         private Cliente cliente;
         private Estado estado;
 
+        private Cadete cadete;
+
         public Pedido(int Numero, string Observacion, Cliente Cliente, Estado Estado)
         {
             this.numero = Numero;
@@ -28,6 +30,7 @@ namespace cadeteria;
         public string Obs { get => observacion; set => observacion = value; }
         public Cliente Cliente {get => cliente; set => cliente = value; }
         public Estado Estado {get => estado; set => estado = value; }
+        public Cadete Cadete{get => cadete; set => cadete = value; }
         public string verDireccionCliente(){
             return cliente.Direccion;
         }

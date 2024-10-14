@@ -7,21 +7,20 @@ namespace cadeteria;
         private string nombre;
         private string direccion;
         private string tel;
-        private List<Pedido> listaPedidos;
+        
 
         public int Id { get => id; set => id = value; }
         public string Nombre { get => nombre; set => nombre = value; }
         public string Direccion { get => direccion; set => direccion = value; }
         public string Tel { get => tel; set => tel = value; }
-        public List<Pedido> ListaPedidos {get => listaPedidos; set => listaPedidos = value; }
         public Cadete(int id, string nombre, string direccion, string telefono)
         {
             this.Id = id;
             this.Nombre = nombre;
             this.Direccion = direccion;
             this.Tel = telefono;
-            this.listaPedidos = new List<Pedido>();
         }
+        /*
         public void agregarPedido(Pedido pedido){
             listaPedidos.Add(pedido);
         }
@@ -37,10 +36,11 @@ namespace cadeteria;
             }
         }
         public void ListarPedidos()
-    {
-        foreach (var pedido in listaPedidos)
         {
-            pedido.mostrarPedido();
+            foreach (var pedido in listaPedidos)
+            {
+                pedido.mostrarPedido();
+            }
         }
-    }
+        */
     }
